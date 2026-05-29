@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "imthebest",
   "bot-account": {
-    "username": "PerzuBhai",
+    "username": "U,can'tbetme",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "example.aternos.me",
-    "port": 27654,
+    "ip": "DMANUAx_SMP.aternos.me",
+    "port":50627,
     "version": "1.21.1",
     "try-creative": false
   },
@@ -31,8 +31,7 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Perzaan Gaming!",
+        "Subscribe to DMANUAX",
         "I like to play Minecraft!"
       ]
     },
@@ -74,7 +73,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "https://discord.gg/KjTDg8G7",
     "events": {
       "connect": true,
       "disconnect": true,
