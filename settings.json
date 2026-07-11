@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "PerzuBhai",
+    "username": "AjekgBhai",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "example.aternos.me",
-    "port": 27654,
+    "ip": "KhuramMC.aternos.me",
+    "port": 30507,
     "version": "1.21.1",
     "try-creative": false
   },
