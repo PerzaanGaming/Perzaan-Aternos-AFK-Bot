@@ -1,15 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "PerzuBhai",
+    "username": "PerzaanLive",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "example.aternos.me",
-    "port": 27654,
-    "version": "1.21.1",
-    "try-creative": false
+    "ip": "Ogaaaq.aternos.me",
+    "port": 48483,
+    "version": "1.16.5"
   },
   "position": {
     "enabled": true,
@@ -20,7 +19,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "Perzuu"
     },
     "anti-afk": {
       "enabled": true,
@@ -29,7 +28,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 500,
       "messages": [
         "I'm a regular player",
         "Subscribe to Perzaan Gaming!",
@@ -39,7 +38,12 @@
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 20000,
+    "periodic-rejoin": {
+      "enabled": false,
+      "min-interval": 20,
+      "max-interval": 60
+    }
   },
   "movement": {
     "enabled": true,
@@ -60,7 +64,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -69,12 +73,12 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
     "events": {
       "connect": true,
       "disconnect": true,
